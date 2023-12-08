@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-with open('california_housing_model.pkl', 'rb') as file:
+with open("california_housing_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("California Housing Price Prediction")
